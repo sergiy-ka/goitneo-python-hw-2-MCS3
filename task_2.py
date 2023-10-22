@@ -47,7 +47,7 @@ class Record:
         for idx, p in enumerate(self.phones):
             if p.value == phone:
                 self.phones.pop(idx)
-                print("Phone removed")
+                # print("Phone removed")
 
     def edit_phone(self, *args):
         try:
